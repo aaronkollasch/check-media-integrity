@@ -229,7 +229,7 @@ def magick_identify_check(filename):
 
 
 def heif_check(filename):
-    pyheif.read_heif(filename)
+    pyheif.read(filename)
 
 
 def pypdf_check(filename):
